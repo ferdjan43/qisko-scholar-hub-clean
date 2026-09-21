@@ -26,7 +26,7 @@ export default function StudentDashboard() {
   const [taskTitle, setTaskTitle] = useState("");
   const [taskDescription, setTaskDescription] = useState("");
   const [taskDate, setTaskDate] = useState("");
-  const [taskColor, setTaskColor] = useState("#6366f1");
+  const [taskColor, setTaskColor] = useState("#10b981");
   const [showOnboarding, setShowOnboarding] = useState(false);
   const navigate = useNavigate();
   const { toast } = useToast();
